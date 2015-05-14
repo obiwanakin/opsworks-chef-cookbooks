@@ -1,0 +1,6 @@
+name              "artisan"
+maintainer        "Benjamin Allen Lippincott"
+maintainer_email  "benji.lippincott@gmail.com"
+license           "MIT"
+description       "does artisan commands"
+version           "1.0.0"
