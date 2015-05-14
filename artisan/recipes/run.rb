@@ -1,5 +1,5 @@
 node[:deploy].each do |application, deploy|
-  script "install_composer" do
+  script "run_migration" do
     interpreter "bash"
     user "root"
     cwd "#{deploy[:deploy_to]}/current/server"
